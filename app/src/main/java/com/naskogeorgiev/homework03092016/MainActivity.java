@@ -1,0 +1,39 @@
+package com.naskogeorgiev.homework03092016;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import com.naskogeorgiev.homework03092016.exercise1.TicTacToeActivity;
+import com.naskogeorgiev.homework03092016.exercise2.FavoriteAppActivity;
+
+public class MainActivity extends Activity implements View.OnClickListener{
+
+    Button mBtnTicTacToe;
+    Button mBtnFavoriteApp;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        mBtnTicTacToe = (Button) findViewById(R.id.btn_exercise1);
+        mBtnFavoriteApp = (Button) findViewById(R.id.btn_exercise2);
+
+        mBtnTicTacToe.setOnClickListener(this);
+        mBtnFavoriteApp.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId() == R.id.btn_exercise1) {
+            startActivity(new Intent(MainActivity.this, TicTacToeActivity.class));
+        }
+
+        if(v.getId() == R.id.btn_exercise2) {
+            startActivity(new Intent(MainActivity.this, FavoriteAppActivity.class));
+        }
+    }
+}
