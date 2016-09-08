@@ -12,21 +12,29 @@
 
     <Button
         android:id="@+id/btn_exercise1"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:text="Tic Tac Toe" />
+        android:layout_marginTop="30dp"
+        android:text="@string/tic_tac_toe" />
 
     <Button
         android:id="@+id/btn_exercise2"
-        android:layout_width="wrap_content"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_below="@id/btn_exercise1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="102dp"
-        android:text="Favorite App" />
+        android:layout_marginTop="110dp"
+        android:text="@string/favorite_app" />
+
+    <Button
+        android:id="@+id/btn_exercise3"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_exercise2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/spotify" />
 
 </RelativeLayout>

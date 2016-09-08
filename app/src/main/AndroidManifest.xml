@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".exercise1.TicTacToeActivity" />
-        <activity android:name=".exercise2.FavoriteAppActivity"></activity>
+        <activity android:name=".exercise2.FavoriteAppActivity" />
+        <activity android:name=".exercise3.SpotifyActivity"></activity>
     </application>
 
 </manifest>

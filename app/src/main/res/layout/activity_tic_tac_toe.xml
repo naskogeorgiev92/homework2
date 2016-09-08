@@ -34,17 +34,20 @@
             <Button
                 android:id="@+id/btn_ttt100"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font"/>
 
             <Button
                 android:id="@+id/btn_ttt010"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font"/>
 
             <Button
                 android:id="@+id/btn_ttt001"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font" />
         </TableRow>
 
         <TableRow
@@ -55,17 +58,20 @@
             <Button
                 android:id="@+id/btn_ttt200"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font" />
 
             <Button
                 android:id="@+id/btn_ttt020"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font" />
 
             <Button
                 android:id="@+id/btn_ttt002"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font"/>
         </TableRow>
 
         <TableRow
@@ -76,17 +82,20 @@
             <Button
                 android:id="@+id/btn_ttt300"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font"/>
 
             <Button
                 android:id="@+id/btn_ttt030"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font"/>
 
             <Button
                 android:id="@+id/btn_ttt003"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="@dimen/tic_tac_toe_font" />
         </TableRow>
 
     </TableLayout>

@@ -22,11 +22,11 @@ public class FavoriteAppActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorite_app);
 
-        data = new ArrayList<Model>();
-            data.add(0, new Model("Test image", "1000 likes", "120 comments", R.drawable.placeholder_image));
-            data.add(1, new Model("Test image 2", "2000 likes", "12 comments", R.drawable.placeholder_image));
-            data.add(2, new Model("Test image 3", "3000 likes", "54 comments", R.drawable.placeholder_image));
-            data.add(3, new Model("Test image 4", "4000 likes", "57 comments", R.drawable.placeholder_image));
+        data = new ArrayList<>();
+        data.add(0, new Model("Test image", "1000 likes", "120 comments", R.drawable.placeholder_image));
+        data.add(1, new Model("Test image 2", "2000 likes", "12 comments", R.drawable.placeholder_image));
+        data.add(2, new Model("Test image 3", "3000 likes", "54 comments", R.drawable.placeholder_image));
+        data.add(3, new Model("Test image 4", "4000 likes", "57 comments", R.drawable.placeholder_image));
 
         Log.d("DEBUG", "The size of data array list is " + data.size());
         Log.d("DEBUG", "The first entry of data array list is " + data.get(0).getTitle());

@@ -4,4 +4,10 @@
     <string name="winner_message">"The winner is "</string>
     <string name="new_game">New Game</string>
     <string name="cancel">Cancel</string>
+    <string name="three_dots">&#8942;</string>
+    <string name="single_dot">&#8226;</string>
+    <string name="favorite_app">Favorite App</string>
+    <string name="spotify">Spotify</string>
+    <string name="explicit">EXPLICIT</string>
+    <string name="arrow_down">&#9660;</string>
 </resources>
