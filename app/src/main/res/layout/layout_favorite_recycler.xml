@@ -12,19 +12,20 @@
             android:id="@+id/tv_post_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
             android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:text="TextView"
             android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="5dp"/>
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_post_title"
-            android:src="@drawable/placeholder_image" />
+            android:src="@drawable/gag_1" />
 
         <LinearLayout
             android:id="@+id/layout_comments_likes"
@@ -81,8 +82,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_toRightOf="@id/imgBtn_comments"
                 android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/imgBtn_comments"
                 android:text="@string/three_dots"
                 android:textSize="22sp"
                 android:textStyle="bold" />

@@ -23,13 +23,13 @@ public class FavoriteAppActivity extends Activity {
         setContentView(R.layout.activity_favorite_app);
 
         data = new ArrayList<>();
-        data.add(0, new Model("Test image", "1000 likes", "120 comments", R.drawable.placeholder_image));
-        data.add(1, new Model("Test image 2", "2000 likes", "12 comments", R.drawable.placeholder_image));
-        data.add(2, new Model("Test image 3", "3000 likes", "54 comments", R.drawable.placeholder_image));
-        data.add(3, new Model("Test image 4", "4000 likes", "57 comments", R.drawable.placeholder_image));
+        data.add(0, new Model("The struggle is real", "19,209 likes", "931 comments", R.drawable.gag_1));
+        data.add(1, new Model("This was the first client on the McDonald's that just opened in my town", "10,904 likes", "285 comments", R.drawable.gag_2));
+        data.add(2, new Model("You can do it", "8,009 likes", "338 comments", R.drawable.gag_3));
+        data.add(3, new Model("Why America why!", "9,788 likes", "396 comments", R.drawable.gag_4));
+        data.add(4, new Model("Anglish", "8,405 likes", "125 comments", R.drawable.gag_5));
+        data.add(5, new Model("Studying be like", "3,578 likes", "257 comments", R.drawable.gag_6));
 
-        Log.d("DEBUG", "The size of data array list is " + data.size());
-        Log.d("DEBUG", "The first entry of data array list is " + data.get(0).getTitle());
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mLayoutManager = new LinearLayoutManager(FavoriteAppActivity.this);
